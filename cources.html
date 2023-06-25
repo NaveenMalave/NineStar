@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: left;
+}
+h1{
+  text-align: center;
+}
+.flex-c{
+    background: #F5F5F5;
+    margin-bottom: 10px;
+    width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #777;
+}
+.flex-i{
+    box-sizing: border-box;
+    border: 1.5px solid midnightblue;
+    padding: 10px;
+    flex: 0 0 160px;
+}
+.flex-l{
+    box-sizing: border-box;
+    border: 1.5px solid midnightblue;
+    padding: 10px;
+    flex: 0 0 890px;
+}
+.cc{
+  color: black;
+  font-weight: bold;
+}
+h4{
+  color: #F08080;
+}
+.w3-container{
+  color: #555;
+}
+
+#London {background-color:#808080;}
+#Paris {background-color:#C0C0C0;}
+#Tokyo {background-color:blue;}
+#Oslo {background-color:orange;}
+</style>
+</head>
+<body>
+    <header>
+      <div id="Nav">
+        <ul>
+            <li><a href="index.html"><i class="fa fa-fw fa-home"></i>HOME</a></li>
+            <div class="dropdown">
+              <button class="dropbtn">COURCES
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="cources.html">UG</a>
+                <a href="cources.html">PG</a>
+                
+              </div>
+            </div>
+              
+              <div class="dropdown">
+                <button class="dropbtn">COLLEGES
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="colleges.html">IIT</a>
+                  <a href="colleges.html">NIT</a>
+                  <a href="colleges.html">AP</a>
+                </div>
+              </div>
+              <div class="subnav">
+                <button class="subnavbtn">EXAMS <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                  <a href="exams.html">COMDK</a>
+                  <a href="exams.html">JEE</a>
+                  <a href="exams.html">EAMCET</a>
+                  <a href="exams.html">MAHCT</a>
+                  <a href="exams.html">TS EAMCET</a>
+                  <a href="exams.html">ICAR</a>
+                  <a href="exams.html">NDA</a>
+                </div>
+              </div>
+              <li><a href="programs.html">PROGRAMMING LANGUAGES</a></li>
+              <li><a href="contact.html"><i class="fa fa-fw fa-envelope"></i>CONTACT</a></li>
+              <li><a href="animat/inlog.html"><i class="fa fa-fw fa-user"></i>LOGIN</a></li>
+          </ul>
+      </div>
+    </header>
+    <img src="img/nn.png" height="270"  width="1155">
+    <button class="tablink" onclick="openCity('London', this, '#696969')" id="defaultOpen">UG</button>
+<button class="tablink" onclick="openCity('Paris', this, '#696969')">PG</button>
+<!-- <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button> -->
+<div id="London" class="tabcontent">
+  <h1>Undergraduate Popular Degrees in India After 12th</h1>
+  <ul>
+    <li>BBA</li>
+    <li>Engineering – BE, B.Tech, and B.Arch.</li>
+    <li>Computer Application – BCA</li>
+    <li>Designing – Fashion/Interior/Web</li>
+    <li>Mass-Communication/Journalism – BJMC</li>
+    <li>Hospitality (Hotel) – Hotel Management</li>
+    <li>Medical – BDS and MBBS</li>
+    <li>Finance – B.Com/CA</li>
+    <li>Arts Psychology and Sociology</li>
+    <li>Law – BA LLB/LLB</li>
+  </ul>
+  <div class="flex-c">
+    <div class="flex-i">
+      <p class="cc">Bachelor of Arts</p>
+    </div>
+    <div class="flex-l">
+      <p class="bb"> <h4>Courses Offered:</h4>  
+        Advertising, Archaeology, Computer Science, Cinema Sciences, Economics, History, Journalism, Languages, Literature, Mathematics, Music and Fine Arts, Philosophy, Political Science, Psychology, Public Administration
+        <h4> Top Colleges: </h4>
+        Lady Shri Ram College for Women, St. Stephen’s College (New Delhi), Loyola College (Chennai)</p>
+    </div>
+    <div class="flex-i">
+      <p class="cc">Bachelor of Science</p>
+    </div>
+    <div class="flex-l">
+      <p class="bb"><h4>Courses Offered: </h4>
+        Agriculture, Biology, Chemistry, Computer Science, Environmental Science, Geography, Geology, Information Technology, Mathematics, Physics
+        <h4>Top Colleges:</h4>
+        St. Stephen’s College (New Delhi), Loyola College (Chennai), St. Xavier’s College (Mumbai)</p>
+    </div>
+    <div class="flex-i">
+      <p class="cc">Bachelor of Commerce</p>
+    </div>
+    <div class="flex-l">
+      <p class="bb"><h4>Courses Offered:</h4>
+        Fewer specializations are available within this stream. Some of them include Advertising and Sales Management, Business Economics/Law/Finance, Cost Accounting, E-commerce, Foreign Trade, Marketing, Office Management, and Taxation. Commerce graduates generally progress to higher degrees such as CA, CWA, and CSS and can also pursue management studies.
+        <h4>Top Colleges:</h4>
+        Sri Ram College of Commerce and Lady Shri Ram College for Women (New Delhi), Loyola College (Chennai)</p>
+    </div>
+    <div class="flex-i">
+      <p class="cc">Bachelor of
+         Engineering/Tech</p>
+    </div>
+    <div class="flex-l">
+      <p class="bb"><h4>Courses Offered:</h4>
+        Automobiles, Biotechnology, Civil, Computer Applications (also offered exclusively as BCA), Electrical and Electronics, Information Technology, Mechanical, Software
+        <h4>Top Institutes:</h4>
+        IIT-Kanpur, IIT-Delhi, and IIT-Kharagpur; Christ University (Bangalore) is ranked high in Computer Applications</p>
+    </div>
+    <div class="flex-i">
+      <p class="cc">BMS/BBA/BBS</p>
+    </div>
+    <div class="flex-l">
+      <p class="bb"><h4>Courses Offered:</h4>
+        Finance, Human Resource Management, Management of Global Business, Management of Services, Marketing,  Tourism Management
+        <h4>Top Institutes: </h4>
+        Delhi College of Advanced Studies, IP University, Delhi</p>
+    </div>
+    <div class="flex-i">
+      <p class="cc">Bachelor of Law</p>
+    </div>
+    <div class="flex-l">
+      <p class="bb"><h4>Courses Offered:</h4>
+        Civil Law, Criminal Law, International Law, and Labour Law. The curriculum includes seminars, tutorial work, moot courts, and practical training programs.
+        <h4>Top Institutes:</h4>
+         National Law School of India, Faculty of Law, Delhi University</p>
+    </div>
+    <div class="flex-i">
+      <p class="cc">Bachelor of Medicine (MBBS)</p>
+    </div>
+    <div class="flex-l">
+      <p class="bb">The course duration ranges from four to five-and-a-half years; the program includes a 12-month-long internship.
+        <h4>Top Medical Colleges:</h4>
+        All India Institute of Medical Sciences, Lady Hardinge Medical College</p>
+    </div>
+  </div>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h1>Post Graduate Courses:</h1>
+  <div class="w3-container">
+    <!-- <h2>Colored Table Heading</h2>
+    <p>Use any of the w3-<em>color</em> classes to display a colored row:</p> -->
+  
+    <table class="w3-table-all">
+      <thead>
+        <tr class="w3-red">
+          <th>COURSES</th>
+          <th>ELIGIBILITY</th>
+           </tr>
+      </thead>
+      <tr>
+        <td>
+        <ul>Master of Science (M.Sc)
+    <li>Computer Science</li>
+    <li>Mathematics</li>
+    <li>Psychology</li>
+    <li>Statistics</li>
+  </ul></td>
+        <td>Should have passed any Bachelors Degree of any recognised University or its equivalent (10+2+3)</td>
+      </tr>
+      <tr>
+        <td><ul>Master of Arts (M.A)
+    <li>English Literature</li>
+    <li>English Language and linguistics</li>
+    <li>Telugu/Sanskrit / Tamil / Hindi/ Urdu</li>
+    <li>Economics</li>
+    <li>Political Science</li>
+    <li>History</li>
+    <li>Philosophy & Religion</li>
+    <li>Public Administration</li>
+    <li>Sociology</li>
+    <li>Social Work</li>
+    <li>Personal Management & Industrial Relations</li>
+    <li>Journalism and Mass Communication</li>
+  </ul>  </td>
+        <td>Any Bachelor Degree from recognized university (10+2+3)</td>
+      </tr>
+      <tr>
+        <td><ul>Master of Commerce (M.Com)
+    <li>General</li>
+    <li>Finance & Control</li>
+  </ul>  </td>
+        <td>Should Passed in B.Com / BA with Accountancy from recognized university (10+2+3)</td>
+      </tr>
+      <tr>
+        <td><ul>Master of Business Administration (M.B.A)
+    <li>International Business</li>
+    <li>Marketing Management</li>
+     <li>Finance Management</li>
+    <li>Banking and Finance</li>
+    <li>Corporate Secretaryship</li>
+    <li>International Business</li>
+    <li>Production and Operations</li>
+    <li>Project Management</li>
+     <li>Hospital Management</li>
+    <li>Tourism Management</li>
+    <li>Education Management</li>
+    <li>Human Resource Management</li>
+    <li>Retail Management</li>
+    <li>Technology Management</li>
+     <li>Logistics Management</li>
+    <li>Corporate Management</li>
+  </ul>  </td>
+        <td>Any Bachelor Degree from recognized university (10+2+3)</td>
+      </tr>
+      <tr>
+        <td>
+   Master of Computer Applications (M.C.A.) 3 Years
+    </td>
+        <td>Any Bachelor Degree with Maths /Maths at +2 Level or B Com / BBA</td>
+      </tr>
+      <tr>
+        <td>
+    M Lib. I. Sci.
+    </td>
+        <td>B Lib. I. Sci. or a equivalent Degree from a recognized University</td>
+      </tr>
+    </table>
+  </div>
+  
+
+  
+</div>
+
+<!-- <div id="Tokyo" class="tabcontent">
+  <h1>Tokyo</h1>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Oslo" class="tabcontent">
+  <h1>Oslo</h1>
+  <p>Oslo is the capital of Norway.</p>
+</div> -->
+
+<script>
+function openCity(cityName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(cityName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+    
+    <!-- <div>
+        <h1>hello</h1>
+    </div> -->
+    <footer>
+      <div>
+        <img src="img/mm.png" height="270"  width="1170">
+        <div class="cont">
+          <div class="cflex"><h1>NineStar</h1><br>
+            Tirupati,Andhra Pradesh,India<br>
+             Email : naveenmalave@gmail.com<br>
+        </div>
+          <div class="cflex"><h3>Usefull Links</h3>
+            <i class="fa fa-sharp fa-solid fa-angle-left"></i>     <a href="index.html">Home</a><br><br>
+            <i class="fa fa-sharp fa-solid fa-angle-left"></i>     <a href="cources.html">Cources</a><br><br>
+            <i class="fa fa-sharp fa-solid fa-angle-left"></i>     <a href="colleges.html">Colleges</a><br><br>
+            <i class="fa fa-sharp fa-solid fa-angle-left"></i>     <a href="exams.html">Exams</a><br><br>
+            <i class="fa fa-sharp fa-solid fa-angle-left"></i>     <a href="programs.html">Programming Languages</a>
+              
+              
+          </div>
+          <div class="cflex">
+            <h3>Let's keep in Touch</h3>
+            <i class="fa fa-sharp fa-solid fa-angle-left"></i>     About us<br><br>
+            <i class="fa fa-sharp fa-solid fa-angle-left"></i>     FAQ'S<br><br>
+            <i class="fa fa-sharp fa-solid fa-angle-left"></i>      Privacy Policy<br><br>
+            <a href="contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a><br><br>
+            <a href="animat/inlog.html"><i class="fa fa-fw fa-user"></i>Login</a><br>
+              
+           </div>
+           <div class="cflex"><h3>Follow us</h3><br>
+            <div class="bflex">
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-facebook"></i>
+            <i class="fa fa-brands fa-instagram"></i>
+            <i class="fa fa-brands fa-linkedin fa-2xl"></i>
+          </div>
+          </div>
+          <p> Copyright NineStar. All Rights Reserved<br>
+Designed by Naveen</p>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><b>Top</b></button>
+<script>
+  // Get the button
+  let mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+  
+        </div>
+      </div>
+    </footer>
+    
+</body>
+</html>
